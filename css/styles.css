@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  justify-content: center;
+}
+h2 {
+  font-size: 30px;
+  font-family: 'Helvetica';
+  color: #FFFFFF;
+  text-align: center;
+}
+
+body {
+  width: 980px;
+  margin: auto;
+  background-image: url(../images/abstract.jpg);
+  background-size: cover;
+}
+.cover {
+  height: auto;
+  font-size: 30px;
+	font-family: 'Helvetica';
+	color: #FFFFFF;
+	text-transform: uppercase;
+  text-align: center;
+  background-image: url(../images/abstract.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: auto;
+}
+nav {
+  text-align: center;
+  background-color: #8084A4;
+  overflow: auto;
+}
+.link_pic {
+  width: 120px;
+  align-items: center;
+  display: inline;
+}
+.fa-envelope:before, .fa-github:before, .fa-linkedin-square:before {
+ font-size: 5rem;
+ color: #FFFFFF;
+ padding: 20px;
+}
+.profilepic {
+  border-radius: 100%;
+  border: 3px solid #7A7A7A;
+	padding: 1px;
+  margin-bottom: 20px;
+  width: 200px;
+  float: right;
+  vertical-align: middle;
+}
+.pic1 {
+  border: 3px solid #7A7A7A;
+	padding: 1px;
+  margin: 10px;
+  display: inline;
+  width: 250px;
+  float: left;
+  clear: both;
+}
+.blocks {
+    display: inline-block;
+}
+.about {
+  background: #E1E1D9;
+  text-align: left;
+  float: right;
+  image-orientation: inline;
+  justify-content: center;
+  overflow: auto;
+  padding: 10px 100px 10px 100px
+}
+.skills {
+  background: #8084A4;
+  color: #FFFFFF;
+  margin-bottom: 0
+}
+.portfolio {
+  background:#E1E1D9;
+  text-align: left;
+  float: right;
+  clear: both;
+  image-orientation: inline;
+  justify-content: center;
+  overflow: auto;
+  padding: 10px 100px 10px 100px;
+}
+.contact {
+  background: #8084A4;
+  text-align: center;
+}
