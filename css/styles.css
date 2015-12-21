@@ -6,6 +6,12 @@
 header {
   margin: 0 auto;
 }
+h1 {
+  font-size:60px;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
 h2 {
   font-size: 30px;
   font-family: 'Helvetica';
@@ -17,8 +23,8 @@ h2 {
 }
 
 #subhead {
-  font-size: 36px;
-  font-family: 'Helvetica';
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
   color: #FFFFFF;
   text-align: center;
 }
@@ -28,7 +34,8 @@ body {
   padding: 0;
   margin: 0 auto;
   left: 0;
-  background-image: url(../images/abstract.jpg);
+  /*background-color: #5C677A;*/
+  background-image: url(../images/blue.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -43,14 +50,14 @@ body {
 .bodyText {
   border: 3px solid #FFFFFF;
   padding: 1px;
-  margin: 10px;
+  margin: 60px;
   background: #E6E6E6;
-  opacity: .80;
+  opacity: .90;
   text-align: left;
   float: right;
   image-orientation: inline;
   justify-content: center;
-  padding: 20px 100px 0px 100px
+  padding: 30px 200px 0px 200px
 }
 .cover {
   font-size: 30px;
@@ -61,24 +68,19 @@ body {
 }
 nav {
   text-align: center;
-  background-color: #8084A4;
+  background: #E6E6E6;
   opacity: .70
-}
-.link_pic {
-  width: 120px;
-  align-items: center;
-  display: inline;
 }
 .fa-envelope:before, .fa-github:before, .fa-linkedin-square:before {
  font-size: 5rem;
- color: #FFFFFF;
+ color: #5C677A;
  padding: 20px;
 }
 .profilepic {
   border-radius: 100%;
   border: 3px solid #7A7A7A;
-	padding: 1px;
-  margin-bottom: 20px;
+	padding: 1.5px;
+  margin: 20px;
   width: 200px;
   float: right;
   vertical-align: middle;
