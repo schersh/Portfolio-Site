@@ -1,56 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sarah Hersh | Web Developer</title>
-    <link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <header>
-      <div class="cover">
-        <br><h1>Sarah C. Hersh<h1>
-        <h1 id="subhead">Web Developer<h1>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sarah Hersh | Web Developer</title>
+  <!-- <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css"> -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container-fluid text-muted text-center bg-info">
+    <br><h1>Sarah C. Hersh<h1>
+      <h1>Web Developer<h1>
       </div>
-    </header>
-    <div class="bodyText">
-      <h2>About</h2>
-      <div class="blocks">
-      <img class="profilepic" src="images/profile.jpg">
-      <p>
-        An educator turned web developer, I'm passionate about the arts and social impact. My goal on every project is to make systems better for the people who use them.
-      </p>
-      <p>
-        A recent graduate of General Assembly's Web Development Immersive course in Washington, DC, I am currently looking for full-time or freelance opportunities that will allow for continued learning through collaboration.
-      </p>
-      <a href="images/SHersh_resume.pdf" download="Resume_SHersh"><h3><i class="fa fa-download"></i> Resume</h3></a>
-      </div>
-      <h2>Skills</h2>
-      <p><strong>Front-end:</strong> HTML/CSS, Materialize, JavaScript, jQuery, Ajax, Angular</p>
-      <p><strong>Back-end:</strong> Ruby on Rails, RSpec, Sinatra, Express, Node.js</p>
-      <p><strong>Databases and version control:</strong> PostgreSQL, ActiveRecord, MongoDB, AWS/S3, Heroku, Git/GitHub</p>
-      <h2>Recent Work</h2>
-      <div class="blocks" id>
-        <img class="pic1" src="images/clean_slate.png">
+      <div class="container">
+        <h2 class="text-center">About</h2>
+        <a href="images/SHersh_resume.pdf" download="Resume_SHersh"><h3 class="text-center"><i class="fa fa-download"></i> Resume</h3></a>
+        <div class="pull-right">
+          <p>
+            An educator turned web developer, I'm passionate about the arts and social impact. My goal on every project is to make systems better for the people who use them.
+          </p>
+          <p>
+            A recent graduate of General Assembly's Web Development Immersive course in Washington, DC, I am currently looking for full-time or freelance opportunities that will allow for continued learning through collaboration.
+          </p>
+        </div>
+        <br>
+        <h2 class="text-center">Skills</h2>
+        <table class="table table-bordered text-center">
+          <tr>
+            <td class="info text-uppercase">Front-end</td>
+            <td class="info text-uppercase">Back-end</td>
+            <td class="info text-uppercase">Databases/Version Control</td>
+          </tr>
+          <tr>
+            <td>HTML/CSS</td>
+            <td>Ruby on Rails</td>
+            <td>PostgreSQL</td>
+          </tr>
+          <tr>
+            <td>Javascript</td>
+            <td>Node.js</td>
+            <td>MongoBD</td>
+          </tr>
+          <!-- <tr>Front-end  </tr>
+          <td>HTML/CSS</td>
+          <td>Bootstrap/Materialize</td>
+          <td>JavaScript</td>
+          <td>jQuery/Ajax</td>
+          <td>Angular</td>
+          <tr>Back-end  </tr>
+          <td>Ruby on Rails, RSpec, Sinatra, Express, Node.js</td>
+          <tr>Databases and Version Control</tr>
+          <td>PostgreSQL, ActiveRecord, MongoDB, AWS/S3, Heroku, Git/GitHub</td> -->
+        </table>
+        <br>
+        <h2 class="text-center">Recent Work</h2>
         <h3>Clean Slate:</h3>
         <p><dfn>
-        Get even with your roommates, and live happily
-        ever after. An app for settling your accounts.
+          Get even with your roommates, and live happily
+          ever after. An app for settling your accounts.
         </dfn></p>
         <p>
-        "Clean Slate" is an app built with Ruby on Rails to allow roommates to track household expenses over the course of a month, and then use a "settle up" function at the end of the month. This app makes cost-sharing more organized and reduces the time and energy roommates need to devote to tallying up expenses and splitting them evenly among household members.
+          "Clean Slate" is an app built with Ruby on Rails to allow roommates to track household expenses over the course of a month, and then use a "settle up" function at the end of the month. This app makes cost-sharing more organized and reduces the time and energy roommates need to devote to tallying up expenses and splitting them evenly among household members.
         </p>
         <a href="https://clean-slate-app.herokuapp.com"><i class="fa fa-external-link"></i>  Visit the Clean Slate app on Heroku</a>
         <br>
         <a href="https://github.com/schersh/clean-slate-2"><i class="fa fa-github"></i> Github repo</a>
       </div>
-    <h2>Contact</h2>
-      <nav>
-      <a href="https://www.linkedin.com/pub/sarah-hersh/6a/627/b23"><i class="fa fa-linkedin-square"></i></a>
-      <a href="https://github.com/schersh"><i class="fa fa-github"></i></a>
-      <a href=mailto:schersh@gmail.com><i class="fa fa-envelope"></i></a>
-      </nav>
-    </div>
-  </body>
-</html>
+      <br>
+      <div class="container-fluid text-muted text-center bg-info">
+        <h2 class="text-center">Contact</h2>
+        <h2>
+          <a href="https://www.linkedin.com/pub/sarah-hersh/6a/627/b23"><i class="fa fa-linkedin-square"></i></a>
+          <a href="https://github.com/schersh"><i class="fa fa-github"></i></a>
+          <a href=mailto:schersh@gmail.com><i class="fa fa-envelope"></i></a>
+        </h2>
+      </div>
+
+    </body>
+    </html>

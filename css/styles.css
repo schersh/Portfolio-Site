@@ -42,7 +42,6 @@ body {
   padding: 0;
   margin: 0 auto;
   left: 0;
-  /*background-color: #5C677A;*/
   background-image: url(../images/blue.jpg);
   background-size: cover;
   background-position: center;
@@ -58,18 +57,18 @@ body {
 .bodyText {
   border: 3px solid #FFFFFF;
   padding: 1px;
-  margin: 60px;
+  margin: 7%;
   background: #E6E6E6;
   opacity: .90;
   text-align: left;
   float: right;
   image-orientation: inline;
   justify-content: center;
-  padding: 30px 200px 0px 200px
+  padding: 5% 10% 5% 10%
 }
 .cover {
   font-size: 30px;
-	font-family: 'Helvetica';
+	font-family: 'Raleway', sans-serif;
 	color: #FFFFFF;
 	text-transform: uppercase;
   text-align: center;
